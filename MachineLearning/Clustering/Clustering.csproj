@@ -103,6 +103,7 @@
       <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>聚类.cs</LastGenOutput>
     </Content>
+    <Resource Include="理论知识\聚类知识总结.xml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

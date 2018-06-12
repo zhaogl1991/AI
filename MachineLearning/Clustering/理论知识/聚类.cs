@@ -28,6 +28,9 @@ namespace Clustering.理论知识
         /// </summary>
         public virtual string TransformText()
         {
+            this.Write("假定样本集D={x1,x2,...,xm}包含m个无标记样本，每个样本xi=(xi1;xi2;...;xin)是一个n维特征向量，\r\n则聚类算法将样本集D划分为k" +
+                    "个不相交的簇{Cl|l=1,2,...,k}，其中Cl\'∩l\'≠lCl=∅（空集），且D=U(l-1,k)Cl。\r\n相应地，我们用λ∈{1,2,...,k}表示" +
+                    "样本xj的“簇标记”（cluster label），即xj∈Cλj。\r\n于是，聚类的结果可用包含m个元素的簇标记向量λ=(λ1;λ2;...;λm)表示。");
             return this.GenerationEnvironment.ToString();
         }
     }
